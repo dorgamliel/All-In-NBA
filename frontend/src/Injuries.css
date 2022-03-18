@@ -1,0 +1,47 @@
+
+#container {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10%; */
+    margin-top: 10%;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.injury {
+    height: 40px;
+    /* line-height: 60px; */
+    text-align: center;
+    border-bottom: solid 0.5px rgb(247, 247, 247);
+    height: fit-content;
+}
+.player-news {
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+    font-weight: bold;
+    color: rgb(145, 145, 145);
+    /* font-size: large; */
+    line-height: 40px;
+    height: 40px;
+}
+
+.title-container {
+    position: fixed;
+    top: 10%;
+    left: 120px;
+    background-color: white;
+    box-shadow: 0 6px 4px -4px rgb(105, 105, 105);
+    width: 81%;
+    height: 40px;
+
+}
+
+#separation {
+    height: 40px;
+}
